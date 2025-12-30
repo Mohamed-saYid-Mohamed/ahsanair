@@ -10,8 +10,7 @@ The website focuses on clean UI/UX, performance, and scalability, and is prepare
 
 - **Company Name:** Ahsan Air Logistic  
 - **Industry:** Air & Cargo Logistics  
-- **Location:** Muqdisho, Soomaaliya  
-- **Phone:** 0616662662  
+- **Location:** Muqdisho, Soomaaliya   
 - **Project Type:** Frontend (React)  
 - **Status:** Active Development  
 
