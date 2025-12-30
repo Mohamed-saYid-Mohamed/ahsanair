@@ -26,7 +26,6 @@ The website focuses on clean UI/UX, performance, and scalability, and is prepare
 - **Framer Motion**
 - **XAMPP (PHP backend – integration ready)**
 
----
 
 ## 🎨 Design & UI
 
@@ -36,36 +35,12 @@ The website focuses on clean UI/UX, performance, and scalability, and is prepare
 - Fully responsive (mobile, tablet, desktop)
 - Airline & cargo inspired layout
 
----
-
-## 📄 Pages Included
-
 ### Public Pages
 - Home
 - About Us
 - Services
 - Track Shipment
-- Contact Us
-
-### Admin Area
-- Admin Dashboard (Protected)
-- Statistics cards
-- Shipments table
-- Edit & Delete shipment actions
-- Admin-only access (not public)
-
----
-
-## 🔐 Admin Dashboard Access
-
-- Admin dashboard is **not publicly accessible**
-- Only authenticated admin users can access `/admin`
-- Includes:
-  - Login system
-  - Protected routes
-  - Logout functionality
-
----
+- Contact Us-
 
 ## 🔌 Backend Integration
 
