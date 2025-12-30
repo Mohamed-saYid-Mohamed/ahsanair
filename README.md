@@ -1,89 +1,83 @@
+# Ahsan Air Logistic – Frontend Website
 
-# Shipment Tracking System
+This project is a modern, professional, and fully responsive **React front-end website** built for a logistics company called **Ahsan Air Logistic**, based in **Muqdisho, Soomaaliya**.
 
-This project is a **Shipment Tracking System** developed by **Mohamed Sayid Mohamed**.  
-It is built with **React + Vite** for the frontend and **PHP** backend running on **XAMPP**.
+The website focuses on clean UI/UX, performance, and scalability, and is prepared for backend integration using XAMPP (PHP/MySQL).
 
-## Project Overview
-This system allows users to track shipments using a **Tracking ID**.  
-The frontend communicates with the PHP backend API to fetch and display shipment details such as **status, origin, destination, and customer**.
+---
 
-## Features
-- Enter a **Tracking ID** to search shipments.
-- Display shipment information:
-  - Tracking ID
-  - Customer
-  - Origin
-  - Destination
-  - Status
-- Shows error message if the tracking ID is invalid.
-- Minimal and responsive frontend using React + Vite.
-- Simple PHP backend API running on XAMPP.
+## 📌 Project Overview
 
-## Project Structure
+- **Company Name:** Ahsan Air Logistic  
+- **Industry:** Air & Cargo Logistics  
+- **Location:** Muqdisho, Soomaaliya  
+- **Phone:** 0616662662  
+- **Project Type:** Frontend (React)  
+- **Status:** Active Development  
 
-### Frontend (React + Vite)
-project-root/
-├─ src/
-│ ├─ main.jsx # Entry point
-│ ├─ TrackingList.jsx # Component for tracking
-├─ index.html
-├─ package.json
-├─ vite.config.js
+---
 
-shell
-Copy code
+## 🛠 Tech Stack
 
-### Backend (PHP in XAMPP)
-C:\xampp\htdocs\ahsan-api
-└─ api/
-├─ track.php # Endpoint for tracking
-├─ contact.php # Example API file
-├─ cors.php # CORS settings
+- **React** (Vite)
+- **Tailwind CSS**
+- **React Router**
+- **Axios**
+- **React Icons / Lucide Icons**
+- **Framer Motion**
+- **XAMPP (PHP backend – integration ready)**
 
-markdown
-Copy code
+---
 
-## Getting Started
+## 🎨 Design & UI
 
-### Backend (PHP)
-1. Copy the `api` folder to `C:\xampp\htdocs\ahsan-api\api`.
-2. Start **Apache** in XAMPP Control Panel.
-3. API endpoint will be available at:
+- Color scheme: **Green & White**
+- Modern, professional logistics design
+- Soft shadows & rounded cards
+- Fully responsive (mobile, tablet, desktop)
+- Airline & cargo inspired layout
 
-http://localhost/ahsan-api/api/track.php
+---
 
-markdown
-Copy code
+## 📄 Pages Included
 
-### Frontend (React + Vite)
-1. Install dependencies:
-```bash
-npm install
-Run the development server:
+### Public Pages
+- Home
+- About Us
+- Services
+- Track Shipment
+- Contact Us
 
-bash
-Copy code
-npm run dev
-Open your browser at:
+### Admin Area
+- Admin Dashboard (Protected)
+- Statistics cards
+- Shipments table
+- Edit & Delete shipment actions
+- Admin-only access (not public)
 
-arduino
-Copy code
-http://localhost:5173
-Enter a Tracking ID and click Track.
+---
 
-Sample Tracking IDs
-Copy code
-AAL-89231
-AAL-89232
-AAL-89233
-AAL-89234
-AAL-89235
-Invalid IDs will return:
+## 🔐 Admin Dashboard Access
 
-typescript
-Copy code
-Invalid tracking number. Please check and try again.
+- Admin dashboard is **not publicly accessible**
+- Only authenticated admin users can access `/admin`
+- Includes:
+  - Login system
+  - Protected routes
+  - Logout functionality
+
+---
+
+## 🔌 Backend Integration
+
+- Backend handled via **XAMPP (Apache + PHP)**
+- React communicates with PHP APIs using Axios
+- JSON-based API structure
+- MySQL integration ready (can be added later)
+
+---
+
+## 📂 Project Structure
 Author
 Mohamed Sayid Mohamed – Fullstack Developer
 
