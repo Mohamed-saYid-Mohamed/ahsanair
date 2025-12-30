@@ -1,6 +1,6 @@
 # Ahsan Air Logistic – Frontend Website
 
-This project is a modern, professional, and fully responsive **React front-end website** built for a logistics company called **Ahsan Air Logistic**, based in **Muqdisho, Soomaaliya**.
+This project is a modern, professional, and fully responsive **full project** built for a logistics company called **Ahsan Air Logistic**, based in **Muqdisho, Soomaaliya**.
 
 The website focuses on clean UI/UX, performance, and scalability, and is prepared for backend integration using XAMPP (PHP/MySQL).
 
